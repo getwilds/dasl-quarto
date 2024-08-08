@@ -22,3 +22,5 @@ contributes:
         - typst-show.typ
       format-resources:
         - '*.svg'
+        - 'official-data-science-lab.png'
+        - 'template_typst.qmd'
