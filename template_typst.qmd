@@ -31,7 +31,7 @@ abstract: |
   For Lucy had her work cut out for her. The doors would be taken off their hinges; Rumpelmayer’s men were coming. And then, thought Clarissa Dalloway, what a morning—fresh as if issued to children on a beach.
 bibliography: bibliography.bib
 bibliographystyle: apa
-format: preprint-typst
+format: dasl-typst
 mainfont: Libertinus Serif
 date: "2024-01-01"
 version: "v0.1.0"
