@@ -52,7 +52,7 @@
             box(
               height: 1em,
               link(
-                a.orcid, 
+                a.orcid,
                 figure(
                   image("orcid.svg", height: 0.9em)
                 )
@@ -75,7 +75,7 @@
             box(
               height: 1em,
               link(
-                r.orcid, 
+                r.orcid,
                 figure(
                   image("orcid.svg", height: 0.9em)
                 )
@@ -90,7 +90,7 @@
 
   // Page settings (including headers & footers)
   set page(
-    paper: paper, 
+    paper: paper,
     margin: margin,
     numbering: "1",
     header-ascent: 50%,
@@ -102,7 +102,7 @@
           box(
             inset: 0.2em,
             if branding == "hutch" {
-              image("data-science-lab.png", width: 20em)
+              image("official-data-science-lab.png", width: 20em)
             }
           )
         } else {
@@ -116,22 +116,22 @@
     ),
     footer-descent: 24pt,
     footer: locate(
-        // could put something on front page 
+        // could put something on front page
         loc => if [#loc.page()] == [1] {
                     box(
             inset: 0.2em,
             [
-                  
+
             #if github != none {
               let (repo) = "https://github.com/" + github
               grid(
-                columns: (5%,95%), 
-                gutter: 0%, 
-                [#image("github-mark.svg", width: 1em) ], 
+                columns: (5%,95%),
+                gutter: 0%,
+                [#image("github-mark.svg", width: 1em) ],
                 repo
                 )
                 }
-    
+
             ]
           )
         } else {
@@ -139,10 +139,10 @@
         }
     )
   )
-  
+
   // Paragraph settings
   set par(
-    justify: true, 
+    justify: true,
     leading: leading,
     first-line-indent: first-line-indent
   )
@@ -187,26 +187,26 @@
   show heading.where(
     level: 4
   ): it => box(
-    inset: (top: 0em, bottom: 0em, left: 0em, right: 1em), 
+    inset: (top: 0em, bottom: 0em, left: 0em, right: 1em),
     text(size: 1em, weight: "bold", it)
   )
   // Level 5 headers are in paragraph
   show heading.where(
     level: 5
   ): it => box(
-    inset: (top: 0em, bottom: 0em, left: 0em, right: 1em), 
+    inset: (top: 0em, bottom: 0em, left: 0em, right: 1em),
     text(size: 1em, weight: "bold", style: "italic", it)
   )
 
   /* Content front matter */
 
   let titleblock(
-    body, 
-    width: 100%, 
-    size: 1.5em, 
+    body,
+    width: 100%,
+    size: 1.5em,
     fill: rgb("#1B365D"),
-    weight: "bold", 
-    above: 1em, 
+    weight: "bold",
+    above: 1em,
     below: 0em
   ) = [
     #align(center)[
@@ -219,12 +219,12 @@
   if title != none {
     titleblock(title)
   }
-  
+
   if date != none {
     titleblock(
       weight: "regular", size: 1em, fill: black,
       [Date: #date]
-      ) 
+      )
     }
   if version != none {
     titleblock(
@@ -232,37 +232,37 @@
       [Version: #version]
     )
   }
-  
+
 // Authors and Requestors
 
   block(width: 100%, above: 1em, below: 0em)[
-    
+
     #columns(2)[
     #align(left)[
       #set text(weight: "bold", fill: rgb("#0a799a"), size: 1.2em)
       Authors
-      
+
       #if authors != none {
         set text(size: 0.8em, fill: black, weight: "regular")
         author_strings.join()
       }
       ]
-    
+
     #colbreak()
-    
+
     #align(right)[
       #if requestors != none {
         set text(weight: "bold", fill: rgb("#0a799a"), size: 1.2em)
         [Prepared for]
         set text(size: 0.8em, fill: black, weight: "regular")
         requestor_strings.join()
-        } 
+        }
         ]
     ]
   ]
 
   block(width: 100%, above: 2em, below: 0em)[
-  
+
     #align(left)[
       #if affiliations != none {
         for a in affiliations [
@@ -272,7 +272,7 @@
     ]
   ]
 
- 
+
   // Abstract and keywords block
   block(inset: (top: 2em, bottom: 0em, left: 2.4em, right: 2.4em))[
     #set text(size: 0.92em)
@@ -306,14 +306,14 @@
 
   // Separate content a bit from front matter
   v(2em)
-  
+
   // Show document content with cols if specified
   if cols == 1 {
     doc
   } else {
     columns(
-      cols, 
-      gutter: col-gutter, 
+      cols,
+      gutter: col-gutter,
       doc
     )
   }
