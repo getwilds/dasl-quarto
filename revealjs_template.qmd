@@ -10,6 +10,9 @@ format:
     smaller: true
     preview-links: auto
 editor: visual
+brand:
+  color:
+    background: "#eeeeee"
 ---
 
 # Land acknowledgement
@@ -38,10 +41,14 @@ editor: visual
 
 “Insert quote here or key statement, left aligned, text centered on page.”
 
-## Left-justified Title / Content Text w/subhead
-### Level 2 header goes here
-#### Level 3 header goes here
--   Bullet level one or body text (click in ribbon to remove bullet) Arial (Body), 16 point line spacing multiple 1.1, with 5 points space before paragraphs
+## Left-justified Title
+### Level 2 subheader goes here
+#### Level 3 subheader goes here
+-   Bullet text
+
+Text with no bullet
+
+Arial (Body), 16 point line spacing multiple 1.1, with 5 points space before paragraphs
 
 # Thank you
 
@@ -65,11 +72,10 @@ Example footer including a [link](https://ocdo.fredhutch.org)
 
 ## Example slide with tabbing
 
--   First line
-    -   Tabbed line
-        -   Double-tabbed line
-            -   Triple-tabbed line
-                -   etc.
+-   Bullet level one
+    -   Bullet level two
+        -   Bullet level three
+            -   etc.
 
 ## Example slide with **bolding** and *italics*
 
