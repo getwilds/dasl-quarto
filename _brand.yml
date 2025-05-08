@@ -1,3 +1,9 @@
+meta:
+  name: Data Science Lab
+  link:
+    home: https://hutchdatascience.org
+    github: https://github.com/fhdsl/
+
 color:
   palette:
     dark-grey: "#222222"
@@ -11,15 +17,18 @@ color:
     white: "#FFFFFF"
     black: "#000000"
   background: dark-navy
-  foreground: dark-grey
-  primary: black
+  foreground: white
+  link: teal
+  primary: white
 
 logo:
-  medium: logo.png
+  medium: _extensions/dasl/official-data-science-lab.jpg
 
 typography:
   fonts:
     - family: Arial
       source: google
+    - family: Roboto
+      source: google
   base: Arial
-  headings: Arial
+  headings: Roboto
