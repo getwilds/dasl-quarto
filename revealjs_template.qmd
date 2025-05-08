@@ -1,27 +1,27 @@
 ---
-title: "Title Slide<br>Max 4 Lines<br>Times New Roman (Heading)<br>40 Point"
+title: "<br>Title Slide"
 author: "FirstName LastName<br>Title, Department<br>Endowed Chair/Additional Description"
-date: "`r Sys.Date()`"
+date: 2025-05-06
 date-format: "MMM D, YYYY"
-format:
-  revealjs:
-    slide-number: true
-    theme: [default]
-    smaller: true
-    preview-links: auto
+format: dasl-revealjs
+title-slide-attributes:
+  data-background-image: darkbackground.png
 editor: visual
-brand:
-  color:
-    background: "#eeeeee"
+theme:
+  - brand
+#  - custom.scss
+#brand:
+#  color:
+#    background: "#eeeeee"
 ---
 
-# Land acknowledgement
+# Land acknowledgement {background-color="dark-navy" image="darkbackground.png"}
 
 -   Fred Hutch Cancer Center acknowledges the Coast Salish peoples of this land, the land which touches the shared waters of all tribes and bands within the Suquamish, Tulalip and Muckleshoot nations.
 
 # Table of Contents
 
-1.  Section One
+1.  [Section One](test.html)
 2.  Section Two
 3.  Section Three
 4.  Section Four
@@ -42,15 +42,18 @@ brand:
 “Insert quote here or key statement, left aligned, text centered on page.”
 
 ## Left-justified Title
+
 ### Level 2 subheader goes here
+
 #### Level 3 subheader goes here
+
 -   Bullet text
 
 Text with no bullet
 
 Arial (Body), 16 point line spacing multiple 1.1, with 5 points space before paragraphs
 
-# Thank you
+# Thank you {background-color="dark-navy" background-image="darkbackground.png"}
 
 # Slide with footer
 
@@ -83,12 +86,10 @@ Example footer including a [link](https://ocdo.fredhutch.org)
 -   Italicize text in markdown using *1 asterisk* on either side of the text
 -   *Escape* a character (i.e. a tilde (\~)) in your text by including a back-slash (\\) before the tilde
 
-
 ## Example slide with a table
+
 | Column 1     | Column 2     | Column 3     |
 |--------------|--------------|--------------|
 | Row 1, Col 1 | Row 1, Col 2 | Row 1, Col 3 |
 | Row 2, Col 1 | Row 2, Col 2 | Row 2, Col 3 |
 | Row 3, Col 1 | Row 3, Col 2 | Row 3, Col 3 |
-
-
