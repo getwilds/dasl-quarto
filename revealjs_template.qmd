@@ -1,26 +1,36 @@
 ---
-title: "<br>Title Slide"
+title: "Title Slide<br>Max 4 Lines<br>Times New Roman (Heading)<br>40 Point"
 author: "FirstName LastName<br>Title, Department<br>Endowed Chair/Additional Description"
 date: 2025-05-06
 date-format: "MMM D, YYYY"
-format: revealjs
+format: 
+  revealjs:
+    css: 
+      - _extensions/dasl/title-slide.scss
+      - _extensions/dasl/body-slide.scss
 title-slide-attributes:
-  data-background-image: darkbackground.png
+  data-background-image: images/darkbackground.png
+  center-title-slide: false
 editor: visual
 ---
 
-# Land acknowledgement {background-color="dark-navy" image="darkbackground.png"}
+::: {.slide-dark style="color: white;" data-background-image="images/landacknowledgement.png"}
+# Land acknowledgement
 
 -   Fred Hutch Cancer Center acknowledges the Coast Salish peoples of this land, the land which touches the shared waters of all tribes and bands within the Suquamish, Tulalip and Muckleshoot nations.
+:::
 
+::: {data-background-image="images/lighttoc.png"}
 # Table of Contents
 
-1.  [Section One](test.html)
+1.  Section One
 2.  Section Two
 3.  Section Three
 4.  Section Four
 5.  Section Five
+:::
 
+::: {data-background-image="images/lighttoc.png"}
 # 
 
 1.  Section One
@@ -28,17 +38,20 @@ editor: visual
 3.  Section Three
 4.  Section Four
 5.  Section Five
+:::
 
+::: {.slide-dark style="color: white;" data-background-image="images/sectionheader.png"}
 # Section title here or key statement (centered)
 
-# 
+:::
 
-“Insert quote here or key statement, left aligned, text centered on page.”
+::: {.slide-dark style="color: white;" data-background-image="images/darktoc.png"}
+# “Insert quote here or key statement, left aligned, text centered on page.”
+:::
 
-## Left-justified Title
-
+::: {data-background-image="images/plain.png"}
+## Title / Content Text w/subhead
 ### Level 2 subheader goes here
-
 #### Level 3 subheader goes here
 
 -   Bullet text
@@ -46,17 +59,16 @@ editor: visual
 Text with no bullet
 
 Arial (Body), 16 point line spacing multiple 1.1, with 5 points space before paragraphs
+:::
 
-# Thank you {background-color="dark-navy" background-image="darkbackground.png"}
 
-
-# Slide with footer
+# Example Slide with footer
 
 ::: footer
 Example footer including a [link](https://ocdo.fredhutch.org)
 :::
 
-# Incremental slide
+# Example Incremental slide
 
 ::: incremental
 -   Line 1
@@ -64,9 +76,14 @@ Example footer including a [link](https://ocdo.fredhutch.org)
 -   Line 3
 :::
 
-# Slide with image
+# Example slide with image
 
 ![](./example.png)
+
+# Example slide with image and caption
+
+![Caption](./example.png)
+
 
 ## Example slide with tabbing
 
@@ -88,3 +105,8 @@ Example footer including a [link](https://ocdo.fredhutch.org)
 | Row 1, Col 1 | Row 1, Col 2 | Row 1, Col 3 |
 | Row 2, Col 1 | Row 2, Col 2 | Row 2, Col 3 |
 | Row 3, Col 1 | Row 3, Col 2 | Row 3, Col 3 |
+
+::: {.slide-dark style="color: white;" data-background-image="images/darkbackground.png"}
+# Thank you {background-color="dark-navy" background-image="darkbackground.png"}
+:::
+

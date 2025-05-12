@@ -1,0 +1,26 @@
+#title-slide {
+  text-align: left;
+  color: white;
+
+  h1 {
+    text-align: left;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 40pt;
+    color: white;
+  }
+
+  .quarto-title-authors,
+  .quarto-title-author,
+  .quarto-title-date,
+  .date,
+  .blocks {
+    justify-content: left;
+    font-family: Arial, sans-serif;
+    font-size: 16pt;
+    width: 100%;
+    color: white;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+  }
+}
