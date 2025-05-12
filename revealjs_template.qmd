@@ -1,5 +1,5 @@
 ---
-title: "Title Slide<br>Max 4 Lines<br>Times New Roman (Heading)<br>40 Point"
+title: "<b>Title Slide<br>Max 4 Lines<br>Times New Roman (Heading)<br>40 Point</b>"
 author: "FirstName LastName<br>Title, Department<br>Endowed Chair/Additional Description"
 date: 2025-05-06
 date-format: "MMM D, YYYY"
@@ -14,14 +14,14 @@ title-slide-attributes:
 editor: visual
 ---
 
-::: {.slide-dark style="color: white;" data-background-image="images/landacknowledgement.png"}
-# Land acknowledgement
+::: {.slide-dark style="color: white;" data-background-image="images/landacknowledgement.png" style="text-align: center;"}
+# **Land acknowledgement**
 
--   Fred Hutch Cancer Center acknowledges the Coast Salish peoples of this land, the land which touches the shared waters of all tribes and bands within the Suquamish, Tulalip and Muckleshoot nations.
+Fred Hutch Cancer Center acknowledges the Coast Salish peoples of this land, the land which touches the shared waters of all tribes and bands within the Suquamish, Tulalip and Muckleshoot nations.
 :::
 
 ::: {data-background-image="images/lighttoc.png"}
-# Table of Contents
+# **Table of Contents**
 
 1.  Section One
 2.  Section Two
@@ -107,6 +107,10 @@ Example footer including a [link](https://ocdo.fredhutch.org)
 | Row 3, Col 1 | Row 3, Col 2 | Row 3, Col 3 |
 
 ::: {.slide-dark style="color: white;" data-background-image="images/darkbackground.png"}
-# Thank you {background-color="dark-navy" background-image="darkbackground.png"}
+# **Thank you**
+:::
+
+::: {.slide-light style="color: navy;" data-background-image="images/lightbackground.png"}
+# **Thank you**
 :::
 
