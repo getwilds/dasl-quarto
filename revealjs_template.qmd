@@ -8,6 +8,7 @@ format:
     css: 
       - _extensions/dasl/title-slide.scss
       - _extensions/dasl/body-slide.scss
+    slide-number: true
 title-slide-attributes:
   data-background-image: images/darkbackground.png
   center-title-slide: false
