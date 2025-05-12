@@ -3,16 +3,10 @@ title: "<br>Title Slide"
 author: "FirstName LastName<br>Title, Department<br>Endowed Chair/Additional Description"
 date: 2025-05-06
 date-format: "MMM D, YYYY"
-format: dasl-revealjs
+format: revealjs
 title-slide-attributes:
   data-background-image: darkbackground.png
 editor: visual
-theme:
-  - brand
-#  - custom.scss
-#brand:
-#  color:
-#    background: "#eeeeee"
 ---
 
 # Land acknowledgement {background-color="dark-navy" image="darkbackground.png"}
@@ -54,6 +48,7 @@ Text with no bullet
 Arial (Body), 16 point line spacing multiple 1.1, with 5 points space before paragraphs
 
 # Thank you {background-color="dark-navy" background-image="darkbackground.png"}
+
 
 # Slide with footer
 
