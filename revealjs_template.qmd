@@ -11,13 +11,13 @@ title-slide-attributes:
 editor: visual
 ---
 
-::: {data-background-image="images/landacknowledgement.png"}
+::: {data-background-image="_extensions/dasl/landacknowledgement.png"}
 # Land acknowledgement
 
 Fred Hutch Cancer Center acknowledges the Coast Salish peoples of this land, the land which touches the shared waters of all tribes and bands within the Suquamish, Tulalip and Muckleshoot nations.
 :::
 
-::: {data-background-image="images/darktoc.png"}
+::: {data-background-image="_extensions/dasl/darktoc.png"}
 # Table of Contents
 
 1.  Section One
@@ -27,7 +27,7 @@ Fred Hutch Cancer Center acknowledges the Coast Salish peoples of this land, the
 5.  Section Five
 :::
 
-::: {data-background-image="images/darktoc.png"}
+::: {data-background-image="_extensions/dasl/darktoc.png"}
 # 
 
 1.  Section One
@@ -37,15 +37,15 @@ Fred Hutch Cancer Center acknowledges the Coast Salish peoples of this land, the
 5.  Section Five
 :::
 
-::: {data-background-image="images/sectionheader.png"}
+::: {data-background-image="_extensions/dasl/sectionheader.png"}
 # Section title here or key statement (centered)
 :::
 
-::: {data-background-image="images/darktoc.png"}
+::: {data-background-image="_extensions/dasl/darktoc.png"}
 # “Insert quote here or key statement, left aligned, text centered on page.”
 :::
 
-::: {data-background-image="images/darktoc.png"}
+::: {data-background-image="_extensions/dasl/darktoc.png"}
 ## Title / Content Text w/subhead
 
 ### Level 2 subheader goes here
@@ -102,7 +102,7 @@ Example footer including a [link](https://ocdo.fredhutch.org)
 | Row 2, Col 1 | Row 2, Col 2 | Row 2, Col 3 |
 | Row 3, Col 1 | Row 3, Col 2 | Row 3, Col 3 |
 
-::: {data-background-image="images/darkbackground.png"}
+::: {data-background-image="_extensions/dasl/darkbackground.png"}
 # Thank you
 :::
 
