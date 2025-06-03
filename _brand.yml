@@ -21,9 +21,6 @@ color:
   link: teal
   primary: white
 
-logo:
-  medium: _extensions/dasl/official-data-science-lab.jpg
-
 typography:
   fonts:
     - family: Arial
