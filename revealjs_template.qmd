@@ -7,7 +7,7 @@ format:
   revealjs:
     slide-number: true
 title-slide-attributes:
-  data-background-image: images/darkbackground.png
+  data-background-image: _extensions/dasl/darkbackground.png
 editor: visual
 ---
 
