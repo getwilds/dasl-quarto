@@ -1,0 +1,120 @@
+---
+title: "Title Slide<br>Max 4 Lines"
+author: "FirstName LastName<br>Title, Department<br>Endowed Chair/Additional Description"
+date: last-modified
+date-format: "MMM D, YYYY"
+format: 
+  revealjs:
+    slide-number: true
+title-slide-attributes:
+  data-background-image: images/lightbackground.png
+editor: visual
+---
+
+::: {data-background-image="images/lighttoc.png"}
+# Land acknowledgement
+
+Fred Hutch Cancer Center acknowledges the Coast Salish peoples of this land, the land which touches the shared waters of all tribes and bands within the Suquamish, Tulalip and Muckleshoot nations.
+:::
+
+::: {data-background-image="images/lighttoc.png"}
+# Table of Contents
+
+1.  Section One
+2.  Section Two
+3.  Section Three
+4.  Section Four
+5.  Section Five
+:::
+
+::: {data-background-image="images/lighttoc.png"}
+# 
+
+1.  Section One
+2.  Section Two
+3.  Section Three
+4.  Section Four
+5.  Section Five
+:::
+
+::: {data-background-image="images/lighttoc.png"}
+# Section title here or key statement (centered)
+:::
+
+::: {data-background-image="images/lighttoc.png"}
+# “Insert quote here or key statement, left aligned, text centered on page.”
+:::
+
+::: {data-background-image="images/plain.png"}
+## Title / Content Text w/subhead
+
+### Level 2 subheader goes here
+
+#### Level 3 subheader goes here
+
+-   Bullet text
+
+Text with no bullet
+
+Arial (Body), 16 point line spacing multiple 1.1, with 5 points space before paragraphs
+:::
+
+::: {data-background-image="images/plain.png"}
+## Example slide with footer
+
+::: footer
+Example footer including a [link](https://ocdo.fredhutch.org)
+:::
+:::
+
+::: {data-background-image="images/plain.png"}
+## Example incremental slide
+::: incremental
+-   Line 1
+-   Line 2
+-   Line 3
+:::
+:::
+
+::: {data-background-image="images/plain.png"}
+## Example slide with image
+
+![](./example.png)
+:::
+
+## Example slide with image and caption
+
+![Caption](./example.png)
+
+::: {data-background-image="images/plain.png"}
+## Example slide with tabbing
+
+-   Bullet level one
+    -   Bullet level two
+        -   Bullet level three
+            -   etc.
+            
+:::
+
+::: {data-background-image="images/plain.png"}
+## Example slide with **bolding** and *italics*
+
+-   Bold text in markdown using **2 asterisks** on either side of the text
+-   Italicize text in markdown using *1 asterisk* on either side of the text
+-   *Escape* a character (i.e. a tilde (\~)) in your text by including a back-slash (\\) before the tilde
+:::
+
+::: {data-background-image="images/plain.png"}
+## Example slide with a table
+
+| Column 1     | Column 2     | Column 3     |
+|--------------|--------------|--------------|
+| Row 1, Col 1 | Row 1, Col 2 | Row 1, Col 3 |
+| Row 2, Col 1 | Row 2, Col 2 | Row 2, Col 3 |
+| Row 3, Col 1 | Row 3, Col 2 | Row 3, Col 3 |
+:::
+
+::: {data-background-image="images/lightbackground.png"}
+# Thank you
+:::
+

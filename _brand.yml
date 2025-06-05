@@ -1,0 +1,31 @@
+meta:
+  name: Fred Hutch Cancer Center
+  link:
+    home: https://fredhutch.org
+    github: https://github.com/fredhutch
+
+color:
+  palette:
+    dark-grey: "#222222"
+    blue: "#ddeaf1"
+    dark-navy: "#1B365D"
+    bright-blue: "#00ABC8"
+    vivid-yellow: "#FFB500"
+    warm-purple: "#AA4AC4"
+    teal: "#0A799A"
+    light-gray: "#F4F4F4"
+    white: "#FFFFFF"
+    black: "#000000"
+  background: white
+  foreground: dark-navy
+  link: teal
+  primary: white
+
+typography:
+  fonts:
+    - family: Arial
+      source: google
+    - family: Roboto
+      source: google
+  base: Arial
+  headings: Roboto
