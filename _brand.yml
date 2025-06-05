@@ -16,8 +16,8 @@ color:
     light-gray: "#F4F4F4"
     white: "#FFFFFF"
     black: "#000000"
-  background: dark-navy
-  foreground: white
+  background: white
+  foreground: dark-navy
   link: teal
   primary: white
 
